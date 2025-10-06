@@ -78,10 +78,10 @@
 ## **T — Tech Stack（技術架構）**
 
 * **前端**：Next.js
-* **後端／資料庫**：Supabase（存放使用者、作業、繳交紀錄）
-* **檔案儲存**：Supabase Storage
-* **部署**：Vercel
-* **登入／權限**：NextAuth + Google OAuth
+* **後端／資料庫**：Firebase（存放使用者、作業、繳交紀錄）
+* **檔案儲存**：Firebase Storage
+* **部署**：Zeabur
+* **登入／權限**：Auth.js（原本為 NextJs） + Google OAuth
 * **角色**：學生 / 老師（登入時判斷）
     * 系統自帶初始管理老師帳號
     * 老師可授予其他老師權限
